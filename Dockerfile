@@ -15,4 +15,4 @@ RUN npm install && \
 
 FROM lipanski/docker-static-website
 
-COPY --from=base /git/SauceKudasai .
+COPY --from=build /SauceKudasai/build .
